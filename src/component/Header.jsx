@@ -1,6 +1,6 @@
 import React from "react";
 import cover from "./images/cover.png";
-import logo1 from "./images/logo1.png";
+import logo12 from "./images/logo12.svg";
 
 const Header = () => {
   return (
@@ -8,7 +8,7 @@ const Header = () => {
   className="w-screen h-screen p-[24px] relative bg-no-repeat bg-cover bg-center"
   style={{ backgroundImage: `url(${cover})` }}
 >
-      <img className="" src={logo1} alt="Logo" />
+      <img className="" src={logo12} alt="Logo" />
       <section className=" flex flex-col items-center absolute left-1/2 top-[70%] -translate-x-1/2 -translate-y-1/2 text-white text-center space-y-6">
         <h2 className="text-[40px] text-[#CAAB72]">
           celebrate SPORTSbook 300% bonus

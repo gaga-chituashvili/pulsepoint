@@ -20,9 +20,9 @@ const Footer = () => {
          <NavLink className="underline underline-offset-8 text-[#90949C] text-[12px]">Responsible Gambling</NavLink>
         </article>
         <article className='flex gap-x-[16px] items-center'>
-            <img src={ga} alt="ga" />
-            <img src={itech} alt="itech" />
-            <img src={plus} alt="plus" />
+            <img className='w-[32px]' src={ga} alt="ga" />
+            <img className='w-[32px]'  src={itech} alt="itech" />
+            <img className='w-[32px]' src={plus} alt="plus" />
             <span className='text-[#90949C] text-[12px]'>LoremLogo.com 2025</span>
         </article>
        </section>
