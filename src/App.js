@@ -1,10 +1,12 @@
+import "./reset.css"
 import './App.css';
+import Home from "./pages/Home";
 
 function App() {
   return (
-    <section className='App'>
-      <p>app</p>
-    </section>
+    <div className=''>
+      <Home/>
+    </div>
   );
 }
 
