@@ -3,6 +3,7 @@ import Cover from '../component/Cover'
 import Gaiming from '../component/Gaiming'
 import Choose from '../component/Choose'
 import Information from '../component/Information'
+import Footer from '../component/Footer'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
     <Gaiming/>
     <Choose/>
     <Information/>
+    <Footer/>
     </>
   )
 }
