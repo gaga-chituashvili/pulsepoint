@@ -6,8 +6,11 @@ import feature from "./images/Feature.png";
 
 const Choose = () => {
   return (
-    <section className="flex flex-col items-center gap-y-[40px]">
-      <h3>Why choose us?</h3>
+    <section className="flex flex-col items-center gap-y-[40px] mt-[64px] bg-[#FFFFFF]">
+      <article className="flex flex-col items-center gap-y-[20px]">
+        <h3 className="text-[24px] text-[#222939]">Why choose us?</h3>
+        <div className="w-[32px] h-[4px] bg-[#CAAB72]"/>
+      </article>
       <section className="flex gap-x-[16px]">
          <article className="flex flex-col gap-y-[16px] items-center px-[12px]">
         <img src={secure1} alt="secure" />

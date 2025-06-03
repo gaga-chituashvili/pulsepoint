@@ -7,7 +7,10 @@ import sport4 from "./images/Sports4.png";
 const Gaiming = () => {
   return (
     <section className="flex flex-col items-center mt-[40px] gap-y-[48px]">
-      <h3 className="text-[24px]">YOUR GAMING DESTINATION</h3>
+         <article className="flex flex-col items-center gap-y-[20px]">
+        <h3 className="text-[24px] text-[#222939]">YOUR GAMING DESTINATION</h3>
+        <div className="w-[32px] h-[4px] bg-[#CAAB72]"/>
+      </article>
       <section className="flex flex-wrap gap-[16px] justify-center">
         <article className="relative">
           <img src={sport1} alt="sport1" />

@@ -13,7 +13,7 @@ const Header = () => {
         <h2 className="text-[40px] text-[#CAAB72]">
           celebrate SPORTSbook 300% bonus
         </h2>
-        <p className="text-center whitespace-pre-line">
+        <p className="text-[24px] text-center whitespace-pre-line">
           Welcome to World Cup
           {"\n"}get special bonus of 300%
           {"\n"}deposit 100 get 300
