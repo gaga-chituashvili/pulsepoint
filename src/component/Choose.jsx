@@ -9,41 +9,59 @@ const Choose = () => {
     <section className="flex flex-col items-center gap-y-[40px] mt-[64px] bg-[#FFFFFF]">
       <article className="flex flex-col items-center gap-y-[20px]">
         <h3 className="text-[24px] text-[#222939]">Why choose us?</h3>
-        <div className="w-[32px] h-[4px] bg-[#CAAB72]"/>
+        <div className="w-[32px] h-[4px] bg-[#CAAB72]" />
       </article>
       <section className="flex gap-x-[16px]">
-         <article className="flex flex-col gap-y-[16px] items-center px-[12px]">
-        <img src={secure1} alt="secure" />
-       <article className="flex flex-col items-center gap-y-[6px]"> <span>safe & secure gaming</span>
-        <span className="text-center whitespace-pre-line"> Praesent facilisis massa vitae sapien
-          {"\n"}rutrum, a posuere. Etiam sollicitudin 
-          {"\n"}neque ac malesuada.
-          </span></article>
-      </article>
-       <article className="flex flex-col gap-y-[16px] items-center px-[12px]">
-        <img src={mask} alt="mask" />
-        <article className="flex flex-col items-center gap-y-[6px]">  <span>variety of games</span>
-        <span className="text-center whitespace-pre-line"> Lorem ipsum dolor sit amet, consectetur 
-          {"\n"}adipiscing elit. Fusce ullamcorper
-          {"\n"}vulputate magna.
-          </span></article>
-      </article>
-       <article className="flex flex-col gap-y-[16px] items-center px-[12px]">
-        <img src={mask1} alt="mask1" />
-       <article className="flex flex-col items-center gap-y-[6px]">   <span>fast & better experience</span>
-        <span className="text-center whitespace-pre-line">Nullam porta at orci non molestie. 
-          {"\n"}Aenean vel diam erat. Nullam dignissim
-          {"\n"}lorem pulvinar dui finibus ultrices.
-          </span></article>
-      </article>
         <article className="flex flex-col gap-y-[16px] items-center px-[12px]">
-        <img src={feature} alt="feature" />
-        <article className="flex flex-col items-center gap-y-[6px] ">  <span>improved look & feel</span>
-        <span className="text-center whitespace-pre-line">Lorem ipsum dolor sit amet, consectetur 
-          {"\n"}adipiscing elit. Fusce ullamcorper 
-          {"\n"}vulputate magna.
-          </span></article>
-      </article>
+          <img src={secure1} alt="secure" />
+          <article className="flex flex-col items-center gap-y-[6px]">
+            {" "}
+            <span>safe & secure gaming</span>
+            <span className="text-center whitespace-pre-line">
+              {" "}
+              Praesent facilisis massa vitae sapien
+              {"\n"}rutrum, a posuere. Etiam sollicitudin
+              {"\n"}neque ac malesuada.
+            </span>
+          </article>
+        </article>
+        <article className="flex flex-col gap-y-[16px] items-center px-[12px]">
+          <img src={mask} alt="mask" />
+          <article className="flex flex-col items-center gap-y-[6px]">
+            {" "}
+            <span>variety of games</span>
+            <span className="text-center whitespace-pre-line">
+              {" "}
+              Lorem ipsum dolor sit amet, consectetur
+              {"\n"}adipiscing elit. Fusce ullamcorper
+              {"\n"}vulputate magna.
+            </span>
+          </article>
+        </article>
+        <article className="flex flex-col gap-y-[16px] items-center px-[12px]">
+          <img src={mask1} alt="mask1" />
+          <article className="flex flex-col items-center gap-y-[6px]">
+            {" "}
+            <span>fast & better experience</span>
+            <span className="text-center whitespace-pre-line">
+              Nullam porta at orci non molestie.
+              {"\n"}Aenean vel diam erat. Nullam dignissim
+              {"\n"}lorem pulvinar dui finibus ultrices.
+            </span>
+          </article>
+        </article>
+        <article className="flex flex-col gap-y-[16px] items-center px-[12px]">
+          <img src={feature} alt="feature" />
+          <article className="flex flex-col items-center gap-y-[6px] ">
+            {" "}
+            <span>improved look & feel</span>
+            <span className="text-center whitespace-pre-line">
+              Lorem ipsum dolor sit amet, consectetur
+              {"\n"}adipiscing elit. Fusce ullamcorper
+              {"\n"}vulputate magna.
+            </span>
+          </article>
+        </article>
       </section>
     </section>
   );

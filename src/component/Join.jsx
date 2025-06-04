@@ -1,35 +1,54 @@
 import React from "react";
-import user from "./images/user.svg"
-import pay from "./images/pay.svg"
-import play from "./images/play.svg"
-import west from "./images/west.svg"
+import user from "./images/user.svg";
+import pay from "./images/pay.svg";
+import play from "./images/play.svg";
+import west from "./images/west.svg";
 
 const Join = () => {
   return (
-    <section className="h-[120px] bg-[#1A202C] flex justify-between px-[111px] py-[28px]">
-      <article className="flex gap-x-[16px]">
-        <img src={user} alt="user" />
+    <section className="h-[120px] bg-[#1A202C] flex justify-between px-[111px] py-[28px] [@media(max-width:1109px)]:px-[53px]">
+      <article className="flex gap-x-[16px] items-center">
+        <img className="w-[64px] [@media(max-width:1010px)]:w-[48px]" src={user} alt="user" />
         <article className="flex flex-col">
-            <span className="text-[20px] font-bold text-[#CAAB72]">JOIN US</span>
-            <span className="text-[14px] text-[#A7A9B0]">It’s quick and easy</span>
+          <span className="text-[20px] font-bold text-[#CAAB72] [@media(max-width:1010px)]:text-[16px]">JOIN US</span>
+          <span className="text-[14px] text-[#A7A9B0] block [@media(max-width:1010px)]:hidden">
+            It’s quick and easy
+          </span>
+          <span className="text-[14px] text-[#A7A9B0] hidden [@media(max-width:1010px)]:block">
+            Quick & Easy
+          </span>
         </article>
       </article>
+
       <img className="w-[24px]" src={west} alt="west" />
-       <article className="flex gap-x-[16px]">
-         <img src={pay} alt="user" />
-          <article className="flex flex-col">
-            <span className="text-[20px] font-bold text-[#CAAB72]">Deposit</span>
-            <span className="text-[14px] text-[#A7A9B0]">Secure with 2-5min deposit time!</span>
+
+      <article className="flex gap-x-[16px] items-center">
+        <img className="w-[64px]" src={pay} alt="pay" />
+        <article className="flex flex-col">
+          <span className="text-[20px] font-bold text-[#CAAB72] [@media(max-width:1010px)]:text-[16px]">Deposit</span>
+          <span className="text-[14px] text-[#A7A9B0] block [@media(max-width:1010px)]:hidden">
+            Secure with 2-5min deposit time!
+          </span>
+          <span className="text-[14px] text-[#A7A9B0] hidden [@media(max-width:1010px)]:block">
+            Safe & Secure
+          </span>
         </article>
-       </article>
-        <img className="w-[24px]" src={west} alt="west" />
-        <article className="flex gap-x-[16px]">
-             <img src={play} alt="user" />
-              <article className="flex flex-col">
-            <span className="text-[20px] font-bold text-[#CAAB72]">PLay</span>
-            <span className="text-[14px] text-[#A7A9B0]">Start your winning journey!</span>
+      </article>
+
+      <img className="w-[24px]" src={west} alt="west" />
+
+      <article className="flex gap-x-[16px] items-center">
+        <img className="w-[64px]" src={play} alt="play" />
+        <article className="flex flex-col">
+          <span className="text-[20px] font-bold text-[#CAAB72] [@media(max-width:1010px)]:text-[16px]">Play</span>
+          <span className="text-[14px] text-[#A7A9B0] block [@media(max-width:1010px)]:hidden">
+            Start your winning journey!
+          </span>
+          <span className="text-[14px] text-[#A7A9B0] hidden [@media(max-width:1010px)]:block">
+            Start Winning
+          </span>
         </article>
-        </article>
+      </article>
     </section>
   );
 };

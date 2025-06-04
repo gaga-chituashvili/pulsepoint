@@ -4,22 +4,26 @@ import logo12 from "./images/logo12.svg";
 
 const Header = () => {
   return (
-   <header
-  className="w-screen h-screen p-[24px] relative bg-no-repeat bg-cover bg-center"
-  style={{ backgroundImage: `url(${cover})` }}
->
-      <img className="" src={logo12} alt="Logo" />
-      <section className=" flex flex-col items-center absolute left-1/2 top-[70%] -translate-x-1/2 -translate-y-1/2 text-white text-center space-y-6">
-        <h2 className="text-[40px] text-[#CAAB72]">
+    <header className="relative [@media(max-width:1010px)]:h-[1032px]">
+      <img className="absolute mt-6 ml-6" src={logo12} alt="Logo" />
+      <img className="w-full h-full object-cover" src={cover} alt="cover" />
+
+      <section className="flex flex-col items-center absolute left-1/2 bottom-[32px] -translate-x-1/2 text-white text-center space-y-4 px-4 w-full max-w-[90%]">
+        <h2
+          className="text-[#CAAB72] text-[40px] [@media(max-width:1010px)]:text-[32px]"
+        >
           celebrate SPORTSbook 300% bonus
         </h2>
-        <p className="text-[24px] text-center whitespace-pre-line">
+        <p
+          className="whitespace-pre-line text-[24px] [@media(max-width:1010px)]:text-[20px]"
+          
+        >
           Welcome to World Cup
           {"\n"}get special bonus of 300%
           {"\n"}deposit 100 get 300
           {"\n"}easy deposit, fast withdrawal, guaranteed pay
         </p>
-        <button className="bg-[#CAAB72] px-[72px] py-[20px] rounded-full text-black">
+        <button className="bg-[#CAAB72] px-[72px] py-[20px] rounded-full text-black text-[clamp(12px,2.5vw,18px)]">
           CLAIM NOW
         </button>
         <span className="text-[12px] text-[#A7A9B0]">terms & conditions</span>
@@ -29,3 +33,6 @@ const Header = () => {
 };
 
 export default Header;
+
+
+// [@media(max-width:768px)]:
