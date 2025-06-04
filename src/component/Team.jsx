@@ -11,7 +11,9 @@ const Team = () => {
       <article className="flex gap-x-[8px] items-center [@media(max-width:1010px)]:flex-col gap-y-[8px] transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
         <img className="w-[40px]" src={laliga} alt="laliga" />
         <article className="flex flex-col [@media(max-width:1010px)]:justify-center items-center">
-          <span className="text-[#FFFFFF] text-[12px]">Official Regional Partner</span>
+          <span className="text-[#FFFFFF] text-[12px]">
+            Official Regional Partner
+          </span>
           <span className="text-[#FFFFFF] text-[12px]">2020 - 2024</span>
         </article>
       </article>

@@ -4,7 +4,9 @@ const Information = () => {
   return (
     <section className="flex flex-col gap-y-[48px] px-[24px] mt-[64px]">
       <article className="flex flex-col items-center gap-y-[20px]">
-        <h3 className="text-[24px] text-[#222939] [@media(max-width:1010px)]:text-[20px] [@media(max-width:731px)]:text-[16px]">Start your journey now</h3>
+        <h3 className="text-[24px] text-[#222939] [@media(max-width:1010px)]:text-[20px] [@media(max-width:731px)]:text-[16px]">
+          Start your journey now
+        </h3>
         <div className="w-[32px] h-[4px] bg-[#CAAB72]" />
       </article>
       <article className="flex flex-col gap-y-[40px]">
