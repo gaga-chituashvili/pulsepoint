@@ -9,7 +9,7 @@ import plus from "./images/+18.svg";
 const Footer = () => {
   return (
     <footer className=" bg-[#222939] mt-[80px] px-[24px] py-[32px] [@media(max-width:768px)]:px-[16px]">
-      <div className="h-[60px] bg-[#383E4D] flex justify-between items-center px-[16px] py-[20px] cursor-pointer transition-all duration-300 hover:bg-[#4a5163] hover:scale-[1.01]">
+      <div className="h-[60px] bg-[#383E4D] flex justify-between items-center px-[16px] py-[20px] cursor-pointer transition-all duration-300 hover:bg-[#4a5163] hover:scale-[1.01] rounded-lg">
         <span className="text-[14px] text-[#FFFFFF] transition-colors duration-300 hover:text-[#CAAB72]">
           welcome bonus Terms & Conditions
         </span>

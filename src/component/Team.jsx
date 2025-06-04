@@ -7,7 +7,7 @@ import tot from "./images/tot.svg";
 
 const Team = () => {
   return (
-    <section className="flex gap-x-[40px] px-[24px] py-[32px] [@media(max-width:1010px)]:justify-center [@media(max-width:1010px)]:gap-x-[30px] [@media(max-width:801px)]:px-[14px] [@media(max-width:731px)]:flex-wrap gap-y-[24px]">
+    <section className="flex gap-x-[40px]  py-[32px] [@media(max-width:1010px)]:justify-center [@media(max-width:1010px)]:gap-x-[30px] [@media(max-width:801px)]:px-[14px] [@media(max-width:731px)]:flex-wrap gap-y-[24px]">
       <article className="flex gap-x-[8px] items-center [@media(max-width:1010px)]:flex-col gap-y-[8px] transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-lg">
         <img className="w-[40px]" src={laliga} alt="laliga" />
         <article className="flex flex-col [@media(max-width:1010px)]:justify-center items-center">
