@@ -4,12 +4,12 @@ const Information = () => {
   return (
     <section className="flex flex-col gap-y-[48px] px-[24px] mt-[64px]">
       <article className="flex flex-col items-center gap-y-[20px]">
-        <h3 className="text-[24px] text-[#222939]">Start your journey now</h3>
+        <h3 className="text-[24px] text-[#222939] [@media(max-width:1010px)]:text-[20px]">Start your journey now</h3>
         <div className="w-[32px] h-[4px] bg-[#CAAB72]" />
       </article>
       <article className="flex flex-col gap-y-[40px]">
         <article className="flex flex-col text-center gap-y-[16px]">
-          <p className="text-[#4E5461]">
+          <p className="text-[#4E5461] text-[14px] [@media(max-width:1010px)]:text-[12px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
             semper pharetra condimentum. Cras pulvinar risus dignissim augue
             egestas eleifend. Sed euismod erat pulvinar ex blandit accumsan. Sed
@@ -21,10 +21,10 @@ const Information = () => {
           </p>
         </article>
         <article className="flex flex-col text-center gap-y-[16px]">
-          <span className="text-[20px] text-[#4E5461] ">
+          <span className="text-[20px] text-[#4E5461] [@media(max-width:1010px)]:text-[16px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit
           </span>
-          <p className="text-[#4E5461]">
+          <p className="text-[#4E5461] text-[14px] [@media(max-width:1010px)]:text-[12px]">
             Aliquam eget lobortis velit, eget eleifend justo. In ac pellentesque
             risus, nec tristique dui. Vestibulum eget turpis sed magna feugiat
             pulvinar ac ac nunc. Proin molestie facilisis dolor at accumsan.
@@ -40,10 +40,10 @@ const Information = () => {
           </p>
         </article>
         <article className="flex flex-col text-center gap-y-[16px]">
-          <span className="text-[20px] text-[#4E5461]">
+          <span className="text-[20px] text-[#4E5461] [@media(max-width:1010px)]:text-[16px]">
             Maecenas eu tellus vitae scelerisque
           </span>
-          <p className="text-[#4E5461]">
+          <p className="text-[#4E5461] text-[14px] [@media(max-width:1010px)]:text-[12px]">
             Donec eget dui posuere, molestie elit nec, venenatis augue. Interdum
             et malesuada fames ac ante ipsum primis in faucibus. Sed ac
             consequat nisl. Integer pellentesque bibendum eros vel finibus. Nunc

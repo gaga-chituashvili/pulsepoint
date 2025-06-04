@@ -8,7 +8,7 @@ import plus from "./images/+18.svg";
 
 const Footer = () => {
   return (
-    <footer className=" bg-[#222939] mt-[80px] px-[24px] py-[32px]">
+    <footer className=" bg-[#222939] mt-[80px] px-[24px] py-[32px] [@media(max-width:768px)]:px-[16px]">
       <div className="h-[60px] bg-[#383E4D] flex justify-between items-center px-[16px] py-[20px]">
         <span className="text-[14px] text-[#FFFFFF]">
           welcome bonus Terms & Conditions
