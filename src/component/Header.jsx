@@ -33,7 +33,7 @@ const Header = () => {
           {"\n"}deposit 100 get 300
           {"\n"}easy deposit, fast withdrawal, guaranteed pay
         </p>
-        <button className="flex justify-center items-center bg-[#CAAB72] px-[72px] py-[20px] rounded-full text-black h-[48px] transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg [@media(max-width:731px)]:w-[200px]">
+        <button className="flex justify-center items-center bg-[#CAAB72] px-[72px] py-[20px] rounded-full text-black h-[48px] transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg [@media(max-width:731px)]:w-[200px] [@media(max-width:731px)]:px-0 py-0">
           CLAIM NOW
         </button>
 
