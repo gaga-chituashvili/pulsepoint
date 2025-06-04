@@ -16,7 +16,7 @@ const Footer = () => {
         <img className="w-[8px]" src={down} alt="down" />
       </div>
       <Team />
-      <section className="flex justify-between items-center py-[7px]">
+      <section className="flex justify-between items-center py-[7px] [@media(max-width:731px)]:flex-col gap-y-[24px]">
         <article className="flex gap-x-[4px]">
           <span className="text-[#90949C] text-[12px]">
             We are committed to supporting
