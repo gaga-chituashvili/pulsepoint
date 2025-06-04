@@ -8,13 +8,13 @@ import down1 from "./images/down1.svg";
 const Join = () => {
   return (
     <section className="h-[120px] bg-[#1A202C] flex justify-between px-[111px] py-[28px] [@media(max-width:1109px)]:px-[53px] [@media(max-width:731px)]:flex-col [@media(max-width:731px)]:h-[552px] items-center [@media(max-width:731px)]:px-0">
-      <article className="flex gap-x-[16px] items-center transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg rounded-xl">
+      <article className="flex gap-x-[16px] items-center transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg rounded-xl [@media(max-width:731px)]:flex-col gap-y-[12px]">
         <img
           className="w-[64px] [@media(max-width:1010px)]:w-[48px]"
           src={user}
           alt="user"
         />
-        <article className="flex flex-col">
+        <article className="flex flex-col [@media(max-width:731px)]:items-center ga-y-[8px]">
           <span className="text-[20px] font-bold text-[#CAAB72] [@media(max-width:1010px)]:text-[16px]">
             JOIN US
           </span>
@@ -38,9 +38,9 @@ const Join = () => {
         alt="down"
       />
 
-      <article className="flex gap-x-[16px] items-center transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg rounded-xl">
+      <article className="flex gap-x-[16px] items-center transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg rounded-xl [@media(max-width:731px)]:flex-col gap-y-[12px]">
         <img className="w-[64px]" src={pay} alt="pay" />
-        <article className="flex flex-col">
+        <article className="flex flex-col [@media(max-width:731px)]:items-center ga-y-[8px]">
           <span className="text-[20px] font-bold text-[#CAAB72] [@media(max-width:1010px)]:text-[16px]">
             Deposit
           </span>
@@ -64,9 +64,9 @@ const Join = () => {
         alt="down"
       />
 
-      <article className="flex gap-x-[16px] items-center transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg rounded-xl">
+      <article className="flex gap-x-[16px] items-center transition duration-300 ease-in-out hover:scale-105 hover:shadow-lg rounded-xl [@media(max-width:731px)]:flex-col gap-y-[12px]">
         <img className="w-[64px]" src={play} alt="play" />
-        <article className="flex flex-col">
+        <article className="flex flex-col [@media(max-width:731px)]:items-center ga-y-[8px]">
           <span className="text-[20px] font-bold text-[#CAAB72] [@media(max-width:1010px)]:text-[16px]">
             Play
           </span>
