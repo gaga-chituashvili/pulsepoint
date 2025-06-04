@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <header className="relative [@media(max-width:1010px)]:h-[1032px]">
       <img
-        className="absolute mt-6 ml-6 cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg"
+        className="absolute object-cover mt-6 ml-6 cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-lg [@media(max-width:481px)]:w-[155px]"
         src={logo12}
         alt="Logo"
       />
